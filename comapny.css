@@ -1,0 +1,418 @@
+.row
+{
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.container_head
+{
+	padding-bottom: 135px;
+	background-color: #01579B;
+}
+/*--------------------NAVBAR------------------*/
+.navbar-default
+{
+	background-color: #01579B;
+	border-color: #01579B;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 17px;
+}
+
+/*-----------------scroll spy-----------------*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #01579B;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/*-------------Navbar list color-------------*/
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+/*-------------Navbar logo color-------------*/
+.navbar-default .navbar-brand {
+    color: #fff;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.navbar-right {
+    margin-right: 40px;
+}
+
+/*-------------Hamburger color----------------*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*-------------hamburger after click (on focus and hover) color-----------------*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #1565C0;
+    border-color: #1565C0;
+}
+
+/*----------------hamburger border color------------------*/
+.navbar-default .navbar-toggle {
+    border-color: #1565C0;
+}
+
+/*-------------------menu top border----------------------*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #1565C0;
+}
+
+#logo:hover
+{
+	color: #fff;
+}
+
+#my_navbar a:hover
+{
+	background-color: #fff;
+	color: #1565C0;
+	transition-duration: 0.4s;
+	border-radius: 3px;
+}
+
+/*--------------company and name and desc------------------*/
+.jumbotron {
+    background-color: #01579B;
+    color: #fff;
+    padding-top: 210px;
+}
+
+/*---------------------email textbox-----------------------*/
+.form-inline
+{
+	margin-top: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #1565C0;
+    border-color: #1565C0;
+}
+
+/*----------------------about page--------------------*/
+
+#about_page
+{
+	font-family: 'Lato', sans-serif;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+#about_page
+{
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+}
+
+#about_page h2
+{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#about_page h4
+{
+	line-height: 35px;
+	font-size: 22px;
+	text-align: justify;
+}
+
+#about_page p
+{
+	line-height: 30px;
+	font-size: 18px;
+	text-align: justify;
+	color: #757575;
+}
+
+#about_page button
+{
+	font-size: 20px;
+}
+
+#about_page .glyphicon-signal
+{
+	padding-top: 150px;
+	/*padding-left: 60px;*/
+	font-size: 300px;
+	color: #1565C0;
+}
+
+/*----------------------our values--------------------*/
+#our_values
+{
+	font-family: 'Lato', sans-serif;
+	background-color: #E3F2FD;
+	padding-top: 32px;
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-bottom: 40px;
+}
+
+#our_values .glyphicon-globe
+{
+	padding-top: 150px;
+	font-size: 300px;
+	color: #1565C0;
+}
+
+#our_values h2
+{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#our_values h4
+{
+	line-height: 35px;
+	font-size: 22px;
+	text-align: justify;
+}
+
+#our_values p
+{
+	line-height: 30px;
+	font-size: 18px;
+	text-align: justify;
+	color: #757575;
+}
+
+/*----------------services-----------------*/
+
+#services
+{
+	font-family: 'Lato', sans-serif;
+	padding-top: 40px;
+	padding-bottom: 45px;
+}
+
+#services h2
+{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+#services p
+{
+	font-size: 16px;
+}
+
+#services .heading p
+{
+	font-size: 20px;
+}
+
+#services .glyphicon
+{
+	font-size: 50px;
+	color: #1565C0;
+}
+
+#services .icons
+{
+	padding-top: 30px;
+}
+
+#services .icons p
+{
+	padding-top: 20px;
+}
+
+#services .icons h3
+{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+/*----------------------portfolio----------------------*/
+
+#portfolio
+{
+	font-family: 'Lato', sans-serif;
+	background-color: #E3F2FD;
+	padding-top: 32px;
+	padding-bottom: 40px;
+}
+
+#portfolio .head p
+{
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+#portfolio .content
+{
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+#portfolio .thumbnail
+{
+	border-radius: 0px;
+	border: none;
+	padding: 0px 0px 4px 0px;
+	line-height: 50px;
+}
+
+
+/*--------------portfolio carousel-------------------*/
+#portfolio .customer_say
+{
+	padding: 30px;
+}
+
+#portfolio .carousel-inner p
+{
+	font-size: 20px;
+	line-height: 40px;
+	font-style: italic;
+}
+
+.customer_say h2
+{
+	padding: 20px 0px 50px 30px;
+}
+
+#customers_comments .left.carousel-control, .right.carousel-control
+{
+	font-size: 30px;
+	color: #01579B;
+	top: -25px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	background-image: none;
+}
+
+#customers_comments .carousel-indicators
+{
+    bottom: -40px;
+}
+
+#customers_comments .carousel-indicators li
+{
+	border-color: #01579B;
+}
+
+#customers_comments .carousel-indicators .active
+{
+	background-color: #01579B;
+}
+/*-----------------------products----------------------*/
+
+#products
+{
+	font-family: 'Lato', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+
+#products .heading h2
+{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+#products .heading p
+{
+	font-size: 20px;
+}
+
+#products .panel-primary
+{
+	margin-top: 30px;
+}
+
+#products .panel-heading
+{
+	text-transform: uppercase;
+
+}
+
+#products .panel-body
+{
+	line-height: 25px;
+	font-size: 18px;
+}
+.panel-one
+{
+	margin-bottom: 40.5%;
+}
+
+.panel-two
+{
+	margin-bottom: 20%;
+}
+
+/*-----------------product modal-----------------*/
+
+#product_modal
+{
+	font-family: 'Lato', sans-serif;
+	padding-top: 10%;
+}
+
+#product_modal .modal-header
+{
+	background-color: #01579B;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#product_modal .modal-footer
+{
+	background-color: #E3F2FD;
+}
+
+/*------------------contact------------------*/
+
+#contact
+{
+	font-family: 'Lato', sans-serif;
+	background-color: #E3F2FD;
+	padding-top: 20px;
+}
+
+.contact_head
+{
+	text-transform: uppercase;
+}
+
+.contact_body
+{
+	padding-top: 40px;
+}
+
+.contact_body .col-md-4
+{
+	padding-top: 10px;
+	color: #616161;
+}
+
+#contact .container
+{
+	padding-bottom: 30px;
+}
+
+/*--------------------goto top--------------------*/
+.goto_top
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 25px;
+	color: #1565C0;
+}
+
+.goto_top a:hover
+{
+	color: #1565C0;
+}
